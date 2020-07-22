@@ -1,0 +1,77 @@
+body, html {
+    font-family: 'Barbaro-Roman', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-image: url('../img/pozole_main_bkg.png');
+    height: 100%;
+    width: 100%;
+}
+
+@font-face {
+    font-family: 'Barbaro-Roman';
+    src:url('../fonts/Barbaro-Roman.ttf.woff') format('woff'),
+        url('../fonts/Barbaro-Roman.ttf.svg#Barbaro-Roman') format('svg'),
+        url('../fonts/Barbaro-Roman.ttf.eot'),
+        url('../fonts/Barbaro-Roman.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+a {
+    text-decoration: unset;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+li span {
+    font-size: 16px;
+}
+
+.texto_mainpage {
+    font-size: 1.5em;
+    color: white;
+    padding: 20px;
+    display: inline;
+}
+.page_title {
+    font-size: 85px;
+    text-align: center;
+    color: rgb(105, 13, 13);
+    -webkit-text-stroke: 2px rgb(255, 255, 255); /* width and color */
+}
+
+.box {
+    padding: 2rem;
+}
+
+.navigation {
+    color: white;
+    display: flex;
+    margin-right: 20px;
+    margin-left: auto;
+}
+.navigation_list {
+    display: flex;
+    list-style-type: none;
+}
+
+.navigation_link {
+    font-size: 2em;
+    padding: 10px;
+}
+
+.pedir {
+    margin-top: 100px;
+    margin-right: 20px;
+    border: 1px solid red;
+    float: right;
+    vertical-align: middle;
+}
+
+.whatsapp {
+    padding-top: 0px;
+    display: inline-flex;
+}
